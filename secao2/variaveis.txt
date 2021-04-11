@@ -1,0 +1,11 @@
+- VARIÁVEIS
+ tipos
+  inteiro
+  float
+  bool
+  string
+  
+- STRINGS
+upper() - Deixa tudo maiúsculo
+lower() - Deixa tudo minúsculo
+len()   - 
