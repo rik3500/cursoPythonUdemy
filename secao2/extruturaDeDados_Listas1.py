@@ -18,4 +18,4 @@ idade = [20, 21, 30, 40]
 
 idade.append(18)
 
-print(idade)
+print(idade[2])
