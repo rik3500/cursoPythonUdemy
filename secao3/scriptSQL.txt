@@ -1,0 +1,54 @@
+Criado o banco de dados cursopython
+
+'''
+create database livraria;
+use livraria;
+
+create table pessoas(
+    nome varchar(50),
+    idade int,
+    cep varchar(20),
+    cpf varchar(20)
+);
+
+create table livro(
+    nome varchar(100),
+    genero varchar(50),
+    preco real
+);
+
+insert into pessoas values ('ricardo', 46, '45645465465', '4859556');
+
+Criando uma chave primária
+
+create table funcionario(
+    nome varchar(50),
+    cargo varchar(20),
+    cpf int primary key
+);
+
+insert into funcionario values('marcos', 'vendedor', 125555);
+
+Criando um not null, que significa que não pode ficar em branco.
+
+AUTO_INCREMENT - Função em que a cada novo registro incluído no banco de dados, é gerado uma chave nova para este registro.
+
+create table materiais(
+    id int primary key auto_increment,
+    nome varchar(50),
+    tamanho varchar(20),
+    material varchar(30)
+);
+
+insert into materiais(nome, tamanho, material) values('mesa', '3m', 'madeira');
+
+Agora vamos aprender a recuperar os dados do banco de dados das tabelas.
+
+select * from materiais; //retorna todos registros do banco de dados.
+
+select nome from materiais; //retorna apenas os nomes da tabela do banco de dados.
+
+select nome, tamanho from materiais; //retorna os canpos nome e tamanho da tabela do BD.
+
+
+'''
