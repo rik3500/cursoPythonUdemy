@@ -15,5 +15,5 @@ create table livro(
     preco real
 );
 
-
+insert into pessoas values ('ricardo', 46, '45645465465', '4859556');
 '''
