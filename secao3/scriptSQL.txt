@@ -31,5 +31,14 @@ insert into funcionario values('marcos', 'vendedor', 125555);
 
 Criando um not null, que significa que não pode ficar em branco.
 
+AUTO_INCREMENT - Função em que a cada novo registro incluído no banco de dados, é gerado uma chave nova para este registro.
 
+create table materiais(
+    id int primary key auto_increment,
+    nome varchar(50),
+    tamanho varchar(20),
+    material varchar(30)
+);
+
+insert into materiais(nome, tamanho, material) values('mesa', '3m', 'madeira');
 '''
