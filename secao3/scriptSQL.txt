@@ -41,4 +41,14 @@ create table materiais(
 );
 
 insert into materiais(nome, tamanho, material) values('mesa', '3m', 'madeira');
+
+Agora vamos aprender a recuperar os dados do banco de dados das tabelas.
+
+select * from materiais; //retorna todos registros do banco de dados.
+
+select nome from materiais; //retorna apenas os nomes da tabela do banco de dados.
+
+select nome, tamanho from materiais; //retorna os canpos nome e tamanho da tabela do BD.
+
+
 '''
