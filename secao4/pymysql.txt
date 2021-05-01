@@ -1,0 +1,3 @@
+Para esta aula, criaremo um banco de dados novo
+
+create database interacaopython;
