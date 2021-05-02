@@ -4,7 +4,7 @@ conexao = pymysql.connect(
     host='localhost',
     user='root',
     password='',
-    db='interacaopython',
+    db='interacao',
     charset='utf8mb4',
     cursorclass=pymysql.cursors.DictCursor
 )
