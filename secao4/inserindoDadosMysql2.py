@@ -4,11 +4,11 @@ conexao = pymysql.connect(
     host='localhost',
     user='root',
     password='',
-    db='interacaopython',
+    db='interacao',
     charset='utf8mb4',
     cursorclass=pymysql.cursors.DictCursor
 )
 
 with conexao.cursor() as cursor:
-    cursor.execute('insert into teste values("{}");'.format('elisângela'))
+    cursor.execute('insert into teste values("{}");'.format('seiji'))
     conexao.commit()

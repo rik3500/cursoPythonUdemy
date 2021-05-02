@@ -1,10 +1,11 @@
 import pymysql.cursors
+from senha import usuario, senha
 
 conexao = pymysql.connect(
     host='localhost',
-    user='root',
-    password='',
-    db='interacaopython',
+    user=usuario,
+    password=senha,
+    db='interacao',
     charset='utf8mb4',
     cursorclass=pymysql.cursors.DictCursor
 )

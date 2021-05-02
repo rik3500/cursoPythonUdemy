@@ -136,3 +136,6 @@ dmypy.json
 # VirtualEnv
 Scripts/
 pyvenv.cfg
+
+# Usuários e senha do banco de dados Mysql
+secao4/senha.py
