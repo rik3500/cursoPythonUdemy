@@ -139,3 +139,8 @@ pyvenv.cfg
 
 # Usuários e senha do banco de dados Mysql
 secao4/senha.py
+
+# Usuários e senha do banco de dados Mysql do projeto
+secao4/projeto/senha.py
+
+
